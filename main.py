@@ -14,10 +14,10 @@ while True:
     jogador_escolha -= 1  # Ajusta para índice da lista
 
     computador_escolha = 1
+    num = "012"
 
-  # --------------------------------------------------
-  # FAÇA COM QUE A ESCOLHA DO COMPUTADOR SEJA ALEATÓRIA
-  # --------------------------------------------------
+    
+    computador_escolha = int(random.choice(num))
 
     print("Você escolheu:", opcoes[jogador_escolha])
     print("O computador escolheu:", opcoes[computador_escolha])
